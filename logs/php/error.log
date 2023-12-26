@@ -40,3 +40,4 @@
 [21-Dec-2023 12:16:50 UTC] PHP Warning:  Undefined variable $qsid in /Users/kevin/Local Sites/planty/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 967
 [21-Dec-2023 12:16:50 UTC] PHP Warning:  Undefined variable $qsid in /Users/kevin/Local Sites/planty/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 968
 [21-Dec-2023 12:16:50 UTC] PHP Warning:  Undefined variable $qsid in /Users/kevin/Local Sites/planty/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 971
+[26-Dec-2023 15:20:51 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : invalid_schedule. Message d’erreur : L’évènement planifié n’existe pas.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}
