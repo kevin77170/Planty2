@@ -66,7 +66,13 @@ p {
     margin-bottom: 120px;
 }
 
-                    /* page nous contatcer */
+                    /* page nous rencontrer */
+
+
+/* marge de la fleur a coter du titre NOUS RENCONTRER */
+.elementor-element.elementor-element-ec9348e.e-con-full.e-flex.e-con.e-child > div > div > img{
+    margin-left: 100px;
+}
 
 
 /* marge du paragraphe en dessous du titre NOUS RENCONTRER page nous rencontrer*/
@@ -77,12 +83,26 @@ p {
     margin: 27px 387px 27px 388px;
 }
 
-/* margin du formulaire de contact page nous contacter */
-#wpcf7-f418-p390-o1{
-    margin: 0px 50px 0px 55px;
+/* marge de la feuille a coter des photos de l'équipe */
+.elementor-element.elementor-element-8bc6d03.e-con-full.e-flex.e-con.e-child > div{
+    margin-top: 120px;
 }
 
-/* essai de centrage du formulaire nous contacter */
+/* suppresion du padding-bottom de base du block de la feuille */
+.elementor-element.elementor-element-8bc6d03.e-con-full.e-flex.e-con.e-child{
+    
+    padding-bottom: 0px;
+}
+
+/* suppresion du padding-bottom de base du block des photo de l'équipe*/
+.elementor-element.elementor-element-a9790f5.e-flex.e-con-boxed.e-con.e-parent > div{
+    padding-bottom: 0px;
+}
+
+
+
+
+
 
 
 
