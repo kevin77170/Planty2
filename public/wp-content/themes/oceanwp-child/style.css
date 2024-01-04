@@ -106,7 +106,11 @@ p {
 
                     /* formulaire de contact commander */
 
-
+.img_preco p{
+    
+    margin: 10px !important;
+}
+    
 
 
 
@@ -223,6 +227,19 @@ p {
     text-align: center;
 }
 
+
+.border-form{
+    border: 0.1em solid white;
+    width: 100%;
+}
+
+.border-form-2{
+    background-color: red;
+    border: 0.1em solid white;
+    height: 100% ;
+    margin-left: 150px !important;
+}
+
 /* block qui regroupe les 2 formulaire */
 .conteneur_form{
     display: flex;
@@ -252,7 +269,7 @@ p {
 
 
 /* block titre nom */
-.conteneur_1 > p > label:nth-child(1){
+.conteneur_1 > p > label{
     color: #FFF;
     font-size: 20px;
     font-style: normal;
@@ -263,49 +280,7 @@ p {
 }
 
 /* espace de saisie nom */
-.conteneur_1 > p > span:nth-child(3) > span > input{
-    width: 383px;
-    height: 71px;
-    flex-shrink: 0;
-    border-radius: 7px;
-    background: #FFF;
-    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
-}
-
-/* block titre prénom */
-.conteneur_1 > p > label:nth-child(5){
-    color: #FFF;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 30px;
-    margin-bottom: 13px;
-}
-
-/* espace de saisie prénom */
-.conteneur_1 > p > span:nth-child(7) > span > input{
-    width: 383px;
-    height: 71px;
-    flex-shrink: 0;
-    border-radius: 7px;
-    background: #FFF;
-    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
-}
-
-/* block titre E-mail */
-.conteneur_1 > p > label:nth-child(9){
-    color: #FFF;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 30px;
-    margin-bottom: 13px;
-}
-
-/* espace de saisie E-mail */
-.conteneur_1 > p > span:nth-child(11) > span > input{
+.conteneur_1 > p > span > span > input{
     width: 383px;
     height: 71px;
     flex-shrink: 0;
@@ -331,7 +306,7 @@ p {
 }
 
 /* block titre adresse de livraison */
-.conteneur_2 > p > label:nth-child(1){
+.conteneur_2 > p > label{
     color: #FFF;
     font-size: 20px;
     font-style: normal;
@@ -342,49 +317,7 @@ p {
 }
 
 /* espace de saisie adresse de livraison */
-.conteneur_2 > p > span:nth-child(3) > span > input{
-    width: 383px;
-    height: 71px;
-    flex-shrink: 0;
-    border-radius: 7px;
-    background: #FFF;
-    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
-}
-
-/* block titre code postal */
-.conteneur_2 > p > label:nth-child(5){
-    color: #FFF;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 30px;
-    margin-bottom: 13px;
-}
-
-/* espace de saisie code postal */
-.conteneur_2 > p > span:nth-child(7) > span > input{
-    width: 383px;
-    height: 71px;
-    flex-shrink: 0;
-    border-radius: 7px;
-    background: #FFF;
-    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
-}
-
-/* block titre ville */
-.conteneur_2 > p > label:nth-child(9){
-    color: #FFF;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 30px;
-    margin-bottom: 13px;
-}
-
-/* espace de saisie ville */
-.conteneur_2 > p > span:nth-child(11) > span > input{
+.conteneur_2 > p > span > span > input{
     width: 383px;
     height: 71px;
     flex-shrink: 0;
