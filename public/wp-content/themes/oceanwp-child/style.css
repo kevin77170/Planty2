@@ -41,6 +41,14 @@ p {
     margin-right: 0px; 
 }
 
+
+/* bouton admin */
+.admin{
+    background-color: red;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
                     /* page acceuil */
 
 /* section et bordure personaliser en dessous de la canette planty page acceuil */
@@ -338,3 +346,6 @@ p {
     margin-top: 44px;
     margin-bottom: 100px;
 }
+
+
+
