@@ -115,10 +115,7 @@ p {
 
 
 
-/* block titre votre commande*/
-#wpcf7-f784-p316-o1 > form > div.titre{
-    
-}
+
 
 /* titre votre commande*/
 #wpcf7-f784-p316-o1 > form > div.titre > h2{
@@ -245,10 +242,7 @@ p {
     display: flex;
 }
 
-/* block 1ere partie du formulaire */
-.conteneur_form > div.conteneur_1{
-    
-}
+
 
 /* block 2eme partie du formulaire */
 .conteneur_form > div.conteneur_2{
