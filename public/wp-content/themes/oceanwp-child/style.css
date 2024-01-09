@@ -45,8 +45,7 @@ p {
 /* bouton admin */
 .admin{
     background-color: red;
-    display: flex;
-    flex-direction: row-reverse;
+    
 }
 
                     /* page acceuil */
