@@ -46,6 +46,7 @@ p {
 .admin{
     background-color: red;
     
+    
 }
 
                     /* page acceuil */
@@ -231,17 +232,16 @@ p {
     text-align: center;
 }
 
-
+/* bordure horizontale entre le formulaire et votre commande */
 .border-form{
     border: 0.1em solid white;
     width: 100%;
 }
-
+/* bordure vertical entre les deux formulaire*/
 .border-form-2{
-    background-color: red;
     border: 0.1em solid white;
-    height: 100% ;
-    margin-left: 150px !important;
+    height: 90% ;
+    margin-left: 120px !important;
 }
 
 /* block qui regroupe les 2 formulaire */
@@ -253,7 +253,7 @@ p {
 
 /* block 2eme partie du formulaire */
 .conteneur_form > div.conteneur_2{
-    margin-left: 230px;
+    margin-left: 100px;
 }
 
 
