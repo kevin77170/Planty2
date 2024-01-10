@@ -69,7 +69,7 @@ p {
 
 /* section et bordure personaliser en dessous de la canette planty page acceuil */
 .elementor-element.elementor-element-7c68525.elementor-widget.elementor-widget-image > div{
-    height: 830px;
+    height: 650px;
     padding-top: 0px;
     background-color: #ECE2DA;
     border-radius: 0% 0% 50% 50% / 0% 0% 8% 8%;
@@ -364,3 +364,82 @@ p {
 
 
 
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    
+    /* boutton menu header */
+    #site-header-inner > div.oceanwp-mobile-menu-icon.clr.mobile-right > a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+    }
+
+    /* titre nous rencontrer */
+    .e-con-full.e-flex.e-con.e-child > div > div > h2{
+        width: 500px;
+    }
+
+    /* petite fleur a coter du titre nous rencontrer */
+    .elementor-element.elementor-element-ec9348e.e-con-full.e-flex.e-con.e-child > div > div > img{
+        
+        margin-left: 20px;
+        margin-top: 120px;
+    }
+
+    /* paragraphe en dessous du titre nous rencontrer */
+    .e-con-full.e-flex.e-con.e-child > div > div > p{
+        width: 400px;
+    }
+    /* block photo nous rencontrer */
+    .elementor-element-a9790f5.e-flex.e-con-boxed.e-con.e-parent > div{
+        display: flex;
+        justify-content:space-around;
+    }
+
+    /* block a gauche des photo */
+    .elementor-element-0e36f1f.e-con-full.e-flex.e-con.e-child{
+        width: 0px;
+    }
+    
+    /* block a droite des photo avec la feuille */
+    .elementor-element-8bc6d03.e-con-full.e-flex.e-con.e-child{
+        display: flex;
+        width: 190px;
+        z-index: -100;
+    }
+
+    /* image de la feuille */
+    .elementor-element-8bc6d03.e-con-full.e-flex.e-con.e-child > div > div > img{
+        z-index: -100;
+        
+    }
+    .elementor-element-8bc6d03.e-con-full.e-flex.e-con.e-child > div{
+        margin-top: 0px;
+    }
+
+    /* block photo megane */
+    .elementor-element-76c936e.e-con-full.e-flex.e-con.e-child{
+        width: 25%;
+    }
+
+    /* block photo brook */
+    .elementor-element-c73c952.e-con-full.e-flex.e-con.e-child{
+        width: 25%;
+    }
+
+    /* block photo sylvie */
+    .elementor-element-b13fbd8.e-con-full.e-flex.e-con.e-child{
+        width: 25%;
+    }
+
+    /* block du formulaire de contact */
+    .elementor-element-89c516f.e-flex.e-con-boxed.e-con.e-parent > div{
+        display: flex;
+        padding-right: 200px;
+    }
+
+
+
+}
