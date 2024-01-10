@@ -22,6 +22,8 @@ p {
    color: black;
 }
 
+
+
                     /*header*/
 
 /* couleur du mot commander nav-bar*/
@@ -367,6 +369,8 @@ p {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
+    
     
     /* boutton menu header */
     #site-header-inner > div.oceanwp-mobile-menu-icon.clr.mobile-right > a{
@@ -375,6 +379,34 @@ p {
         align-items: center;
         width: 150px;
     }
+
+
+                    /* page acceuil */
+
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* centrage du paragraphe l'énergie des plantes */
+    .elementor-element-a5a5b33.e-con-full.e-flex.e-con.e-parent > div > div > div{
+        display: flex;
+        margin-left: 40px;
+    }
+
+    /* alignement du titre FATHIA */
+    .elementor-element-3778c41.elementor-widget.elementor-widget-heading > div > h2{
+        text-align: left;
+    }
+
+
+    .elementor-element.elementor-element-f198674.e-con-full.e-flex.e-con.e-child > div > div{
+        width: 100px;
+        height: 200px;
+    
+    }
+                    /* page nous recontrer */
+
 
     /* titre nous rencontrer */
     .e-con-full.e-flex.e-con.e-child > div > div > h2{
@@ -389,9 +421,10 @@ p {
     }
 
     /* paragraphe en dessous du titre nous rencontrer */
-    .e-con-full.e-flex.e-con.e-child > div > div > p{
+    .elementor-element.elementor-element-89b24a9.e-con-full.e-flex.e-con.e-child > div > div > p{
         width: 400px;
     }
+    
     /* block photo nous rencontrer */
     .elementor-element-a9790f5.e-flex.e-con-boxed.e-con.e-parent > div{
         display: flex;
@@ -442,4 +475,7 @@ p {
 
 
 
+
+
 }
+
