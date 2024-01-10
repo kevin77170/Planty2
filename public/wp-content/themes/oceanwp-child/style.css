@@ -41,13 +41,29 @@ p {
     margin-right: 0px; 
 }
 
-#menu-header > li:nth-child(3) > a{
-    background-color: red;
+/* permettre au 3 boutton d'etre flex */
+#site-navigation-wrap .dropdown-menu{
+    display: flex;
 }
 
-.page_item_316{
+/* boutton commander en derniere position a droite */
+#menu-item-320{
     order: 3;
 }
+
+/* taille du boutton admin */
+#menu-header > li:nth-child(3) > a{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
 
                     /* page acceuil */
 
