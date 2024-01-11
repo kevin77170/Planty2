@@ -610,6 +610,7 @@ p {
         background-color: red;
         display: flex;
         flex-direction: column;
+        width: 50px;
     }
 
 
