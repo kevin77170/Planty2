@@ -520,11 +520,97 @@ p {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+
+
+                    /* header */
+
+    /* marge du logo */
+    #site-header-inner{
+        margin-left: 5px;
+    }
+
+    /* marge du menu */
+    #site-header-inner > div.oceanwp-mobile-menu-icon.clr.mobile-right{
+        width: 0px;
+        margin-right: 50px;
+    }
+
+
+                    /* page acceuil */
+
+
+    /* titre boisson energisante */
+    .elementor-element-1e11be3.e-con-full.e-flex.e-con.e-parent > div > div > div > h2{
+        width: 300px;
+        font-size: 24px;
+    }
+
+    /* block en dessous de la canette*/
+    #content > article > div > div > div.elementor-element.elementor-element-53f28c2.e-con-full.e-flex.e-con.e-parent > div > div.elementor-element.elementor-element-7c68525.elementor-widget__width-initial.elementor-widget.elementor-widget-image > div > img{
+        background-color: red;
+        width: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* block du titre ce qu'il en pensent */
+    .elementor-element-b7960c7.e-flex.e-con-boxed.e-con.e-parent > div > div > div{
+        margin: 80px 0 80px 0;
+    }
+
+
+    /* commentaire de fatiha */
+    #content-inspection-panel > div > div > div > div{
+        margin-bottom: 80px;
+    }
+
+    /* commentaire de vero */
+    .elementor-element-3961e34.e-con-full.e-flex.e-con.e-child > div.elementor-element.elementor-element-f198674.e-con-full.e-flex.e-con.e-child > div > div{ 
+        width: 250px;
+        height: 100px;
+        margin-bottom: 80px;
+    }
+
+    /* commentaire de marc */
+   .elementor-element.elementor-element-792a108.e-con-full.e-flex.e-con.e-child > div.elementor-element.elementor-element-b4c32f3.e-con-full.e-flex.e-con.e-child > div > div > p{
+        margin-bottom: 50px;
+   }
+
+                    /* page nous rencontrer */
+
+    /* marge de la fleur */
+    .elementor-element.elementor-element-ec9348e.e-con-full.e-flex.e-con.e-child > div > div > img{
+        margin: 0px;
+    }
     
 
+    /* padding du block titre nous rencontrer */
+    .elementor-element.elementor-element-d51ad0a.e-con-full.e-flex.e-con.e-child > div > div{
+        padding-top: 10px;
+    }
+
+    /* titre nous rencontrer */
+    .elementor-element.elementor-element-d51ad0a.e-con-full.e-flex.e-con.e-child > div > div > h2{
+        text-align: center;
+        width: 280px;
+        font-size: 22px;
+    }
+
+    /* paragraphe en dessous du titre nous rencontrer */
+    .elementor-element.elementor-element-89b24a9.e-con-full.e-flex.e-con.e-child > div > div > p{
+        width: 280px;
+    }
+    /* block du titre l'équipe */
+    .elementor-element.elementor-element-9695ee2.elementor-widget.elementor-widget-heading > div{
+        margin: 100px 0 100px 0;
+    }
 
 
-
+    .elementor-element.elementor-element-a9790f5.e-flex.e-con-boxed.e-con.e-parent{
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+    }
 
 
 
