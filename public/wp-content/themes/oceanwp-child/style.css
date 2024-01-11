@@ -386,7 +386,7 @@ p {
     /* centrage du paragraphe l'énergie des plantes */
     .elementor-element-a5a5b33.e-con-full.e-flex.e-con.e-parent > div > div > div{
         display: flex;
-        margin-left: 40px;
+        margin-left: 10px;
     }
 
     /* alignement du titre FATHIA */
@@ -435,14 +435,8 @@ p {
     .elementor-element-8bc6d03.e-con-full.e-flex.e-con.e-child{
         display: flex;
         width: 190px;
-        z-index: -100;
     }
 
-    /* image de la feuille */
-    .elementor-element-8bc6d03.e-con-full.e-flex.e-con.e-child > div > div > img{
-        z-index: -100;
-        
-    }
     .elementor-element-8bc6d03.e-con-full.e-flex.e-con.e-child > div{
         margin-top: 0px;
     }
@@ -465,7 +459,7 @@ p {
     /* block du formulaire de contact */
     .elementor-element-89c516f.e-flex.e-con-boxed.e-con.e-parent > div{
         display: flex;
-        padding-right: 200px;
+        padding-right: 75px;
     }
 
                     /* page commander */
@@ -517,10 +511,21 @@ p {
         margin-left: 0px;
     }
 
-
+    /* marge du bouton commander */
     #wpcf7-f784-p316-o1 > form > div.boutoncde > p{
         margin-right: 400px;
     }
 
 }
 
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    
+
+
+
+
+
+
+
+}
