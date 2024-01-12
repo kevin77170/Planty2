@@ -22,7 +22,10 @@ p {
    color: black;
 }
 
-
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
 
                     /*header*/
 
@@ -63,19 +66,20 @@ p {
 
 
 
-
-
-
-
                     /* page acceuil */
 
 /* section et bordure personaliser en dessous de la canette planty page acceuil */
 .elementor-element.elementor-element-7c68525.elementor-widget.elementor-widget-image > div{
-    height: 650px;
+    height: 600px;
     padding-top: 0px;
     background-color: #ECE2DA;
     border-radius: 0% 0% 50% 50% / 0% 0% 8% 8%;
     box-shadow: 0px 10px 0px #E3D9D0 ;
+}
+
+
+.elementor-19 .elementor-element.elementor-element-7c68525 img{
+    margin-top: -80px;
 }
 
 /* marge du titre l'énergie des plante page acceuil */
@@ -127,7 +131,12 @@ p {
     padding-bottom: 0px;
 }
 
-
+/* placement de la fleur sous le formulaire de contact */
+#content > article > div > div > div.elementor-element.elementor-element-7563257.e-flex.e-con-boxed.e-con.e-parent > div > div.elementor-element.elementor-element-5a2963b.e-con-full.e-flex.e-con.e-child > div.elementor-element.elementor-element-51d5ce8.e-flex.e-con-boxed.e-con.e-child > div > div > div > img{
+    margin-top: -510px;
+    margin-right: 360px;
+    
+}
 
                     /* formulaire de contact commander */
 
@@ -367,6 +376,11 @@ p {
 
     
     
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
     /* boutton menu header */
     #site-header-inner > div.oceanwp-mobile-menu-icon.clr.mobile-right > a{
         display: flex;
@@ -378,11 +392,7 @@ p {
 
                     /* page acceuil */
 
-    body{
-        width: 100%;
-        overflow-x: hidden;
-    }
-
+    
     /* centrage du paragraphe l'énergie des plantes */
     .elementor-element-a5a5b33.e-con-full.e-flex.e-con.e-parent > div > div > div{
         display: flex;
@@ -403,23 +413,18 @@ p {
                     /* page nous rencontrer */
 
 
-    /* titre nous rencontrer */
-    .e-con-full.e-flex.e-con.e-child > div > div > h2{
-        width: 500px;
-    }
 
     /* petite fleur a coter du titre nous rencontrer */
     .elementor-element.elementor-element-ec9348e.e-con-full.e-flex.e-con.e-child > div > div > img{
-        
         margin-left: 20px;
         margin-top: 120px;
     }
-
-    /* paragraphe en dessous du titre nous rencontrer */
-    .elementor-element.elementor-element-89b24a9.e-con-full.e-flex.e-con.e-child > div > div > p{
-        width: 400px;
-    }
     
+    /* block titre nous rencontrer */
+    #content > article > div > div > div.elementor-element.elementor-element-686ad19.e-flex.e-con-boxed.e-con.e-parent > div > div.elementor-element.elementor-element-d51ad0a.e-con-full.e-flex.e-con.e-child > div > div > h2{
+        font-size: 35px;
+    }
+
     /* block photo nous rencontrer */
     .elementor-element-a9790f5.e-flex.e-con-boxed.e-con.e-parent > div{
         display: flex;
@@ -436,7 +441,7 @@ p {
         display: flex;
         width: 190px;
     }
-
+    /* marge de la feuille a droite des photo */
     .elementor-element-8bc6d03.e-con-full.e-flex.e-con.e-child > div{
         margin-top: 0px;
     }
@@ -457,9 +462,15 @@ p {
     }
 
     /* block du formulaire de contact */
-    .elementor-element-89c516f.e-flex.e-con-boxed.e-con.e-parent > div{
+    #content > article > div > div > div.elementor-element.elementor-element-95969df.e-flex.e-con-boxed.e-con.e-parent > div > div.elementor-element.elementor-element-6d8a394.e-con-full.e-flex.e-con.e-child{
         display: flex;
-        padding-right: 75px;
+        padding-right: 100px;
+    }
+    
+    /* fleur en dessous du formulaire de contact */
+    #content > article > div > div > div.elementor-element.elementor-element-7563257.e-flex.e-con-boxed.e-con.e-parent > div > div.elementor-element.elementor-element-5a2963b.e-con-full.e-flex.e-con.e-child > div.elementor-element.elementor-element-51d5ce8.e-flex.e-con-boxed.e-con.e-child > div > div > div > img{
+        margin-left: -115px ;
+        margin-top: -510px;
     }
 
                     /* page commander */
@@ -545,14 +556,30 @@ p {
         font-size: 24px;
     }
 
-    /* block en dessous de la canette*/
+
+    
+
+    /* block image de la canette*/
     #content > article > div > div > div.elementor-element.elementor-element-53f28c2.e-con-full.e-flex.e-con.e-parent > div > div.elementor-element.elementor-element-7c68525.elementor-widget__width-initial.elementor-widget.elementor-widget-image > div > img{
-        background-color: red;
-        width: 700px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width: auto;
+        
     }
+    
+    /* block de la canette */
+    #content > article > div > div > div.elementor-element.elementor-element-53f28c2.e-con-full.e-flex.e-con.e-parent > div > div.elementor-element.elementor-element-7c68525.elementor-widget__width-initial.taille_cannette.elementor-widget.elementor-widget-image > div{
+        height: 730px;
+        padding-bottom: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    /* suppression de la marge violette en bas du block */
+    .elementor-19 .elementor-element.elementor-element-1ba72dd.e-con{
+    }
+
+
     /* block du titre ce qu'il en pensent */
     .elementor-element-b7960c7.e-flex.e-con-boxed.e-con.e-parent > div > div > div{
         margin: 80px 0 80px 0;
@@ -578,10 +605,14 @@ p {
 
                     /* page nous rencontrer */
 
-    /* marge de la fleur */
-    .elementor-element.elementor-element-ec9348e.e-con-full.e-flex.e-con.e-child > div > div > img{
-        margin: 0px;
+
+    /*block titre et paragraphe nous rencontrer */
+    .e-con-full.e-flex.e-con.e-child {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+    
     
 
     /* padding du block titre nous rencontrer */
@@ -590,10 +621,11 @@ p {
     }
 
     /* titre nous rencontrer */
-    .elementor-element.elementor-element-d51ad0a.e-con-full.e-flex.e-con.e-child > div > div > h2{
+    #content > article > div > div > div.elementor-element.elementor-element-686ad19.e-flex.e-con-boxed.e-con.e-parent > div > div.elementor-element.elementor-element-d51ad0a.e-con-full.e-flex.e-con.e-child > div > div > h2{
         text-align: center;
         width: 280px;
         font-size: 22px;
+        
     }
 
     /* paragraphe en dessous du titre nous rencontrer */
@@ -605,14 +637,84 @@ p {
         margin: 100px 0 100px 0;
     }
 
-
+    /* block photo de l'équipe */
     .elementor-element.elementor-element-a9790f5.e-flex.e-con-boxed.e-con.e-parent{
-        background-color: red;
+        
         display: flex;
         flex-direction: column;
-        width: 50px;
+        width: 280px
+    }
+    /* block photo de l'équipe 2 */
+    #content > article > div > div > div.elementor-element.elementor-element-a9790f5.e-flex.e-con-boxed.e-con.e-parent > div{
+        display: flex;
+        flex-direction: column;
     }
 
+    /* block mégane */
+    #content > article > div > div > div.elementor-element.elementor-element-a9790f5.e-flex.e-con-boxed.e-con.e-parent > div > div.elementor-element.elementor-element-76c936e.e-con-full.e-flex.e-con.e-child{
+        width: 260px;
+    }
+
+    /* block brooke */
+    #content > article > div > div > div.elementor-element.elementor-element-a9790f5.e-flex.e-con-boxed.e-con.e-parent > div > div.elementor-element.elementor-element-c73c952.e-con-full.e-flex.e-con.e-child{
+        width: 260px;
+    }
+
+    /* block sylvie */
+    #content > article > div > div > div.elementor-element.elementor-element-a9790f5.e-flex.e-con-boxed.e-con.e-parent > div > div.elementor-element.elementor-element-b13fbd8.e-con-full.e-flex.e-con.e-child{
+        width: 260px;
+    }
+
+    /* marge de la feuille en dessous des portrait de l'équipe */
+    #content > article > div > div > div.elementor-element.elementor-element-a9790f5.e-flex.e-con-boxed.e-con.e-parent > div > div.elementor-element.elementor-element-8bc6d03.e-con-full.e-flex.e-con.e-child{
+        margin-left: 30px;
+    }
+
+    /* marge de fleur en dessous du formulaire de contact */
+    #content > article > div > div > div.elementor-element.elementor-element-7563257.e-flex.e-con-boxed.e-con.e-parent > div > div.elementor-element.elementor-element-5a2963b.e-con-full.e-flex.e-con.e-child > div.elementor-element.elementor-element-51d5ce8.e-flex.e-con-boxed.e-con.e-child > div > div > div > img{
+        margin: -100px 0px 0px 0px;
+        
 
 
+    /* marge formulaire nom et email */
+    }
+    #wpcf7-f418-p390-o1 > form > p > label > span > span > input{
+        width: 300px;
+    }
+
+    /* marge formulaire message */
+    #wpcf7-f418-p390-o1 > form > p > label > span > span > textarea{
+        width: 300px;
+    }
+
+                    /* page commander */
+
+    /* titre commander */
+    #content > article > div > div > div.elementor-element.elementor-element-d292e36.e-flex.e-con-boxed.e-con.e-parent > div > div.elementor-element.elementor-element-1a557ac.elementor-widget.elementor-widget-heading > div > h2{
+        font-size: 23px;
+    }
+
+    /* titre vos information du premier formulaire de commande */
+    #wpcf7-f784-p316-o1 > form > div.conteneur_form > div.conteneur_1 > h2{
+        margin-left: 0px;
+    }
+
+    /* taille et marge du premier block du formulaire commander */
+    #wpcf7-f784-p316-o1 > form > div.conteneur_form > div.conteneur_1 > p > span > span > input{
+        width: 300px;
+        margin-left: 0px;
+    }
+
+    /* marge des titre du prmeier block */
+    #wpcf7-f784-p316-o1 > form > div.conteneur_form > div.conteneur_1 > p > label{
+        margin-left: 0px;
+    }
+
+    /* espace de saise du deuxieme formulaire de commande */
+    #wpcf7-f784-p316-o1 > form > div.conteneur_form > div.conteneur_2 > p > span > span > input{
+        margin-left: 0px;
+        width: 300px;
+    }
 }
+    
+
