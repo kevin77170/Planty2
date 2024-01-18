@@ -29,6 +29,8 @@ body{
 
                     /*header*/
 
+
+
 /* couleur du mot commander nav-bar*/
 #menu-item-320 > a > span{
     color: white
@@ -42,6 +44,7 @@ body{
     padding-left: 40px;
 }
 
+/* effet au survol couleur du boutton commander*/
 #menu-item-320:hover{
     background-color: #C02E44;
 }
@@ -516,8 +519,9 @@ body{
     }
 
     /* marge du titre vos information */
+    #wpcf7-f784-p316-o1 > form > div.conteneur_form > div.conteneur_1 > h2
     #wpcf7-f784-p316-o1 > form > div.conteneur_form > div.conteneur_1 > h2{
-        margin-left: 50px;
+        margin-left: 200px;
     }
 
     /* marge du block 1 formulaire de commande */
@@ -536,7 +540,7 @@ body{
 
     /* block titre livraison */
     #wpcf7-f784-p316-o1 > form > div.conteneur_form > div.conteneur_2 > h2{
-        margin-left: 110px;
+        margin-left: 80px;
     }
 
     /* block livraison */
@@ -583,8 +587,6 @@ body{
     
     /* block de la canette */
     #content > article > div > div > div.elementor-element.elementor-element-53f28c2.e-con-full.e-flex.e-con.e-parent > div > div.elementor-element.elementor-element-7c68525.elementor-widget__width-initial.taille_cannette.elementor-widget.elementor-widget-image > div{
-        height: 730px;
-        padding-bottom: 200px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -594,6 +596,7 @@ body{
     .elementor-element-b7960c7.e-flex.e-con-boxed.e-con.e-parent > div > div > div{
         margin: 80px 0 80px 0;
     }
+
 
     /* commentaire de fatiha */
     #content-inspection-panel > div > div > div > div{

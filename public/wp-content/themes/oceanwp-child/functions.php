@@ -25,7 +25,7 @@ add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 
 // END ENQUEUE PARENT ACTION
 
-// Fonction pour ajouter le lien "Admin" dans le menu
+// Fonction pour ajouter le lien "Admin" dans le header pour les admin
 add_filter( 'wp_nav_menu_items','add_admin_link', 10, 2 );
 function add_admin_link( $items, $args ) {
     if (is_user_logged_in()) {
