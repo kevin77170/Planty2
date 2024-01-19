@@ -30,12 +30,10 @@ body{
                     /*header*/
 
 
-
 /* couleur du mot commander nav-bar*/
 #menu-item-320 > a > span{
     color: white
 }
-
 
 /* bouton commander nav-bar */
 #menu-item-320 {
@@ -48,7 +46,6 @@ body{
 #menu-item-320:hover{
     background-color: #C02E44;
 }
-
 
 /* marge du bouton commander */
 #site-header-inner {
@@ -73,7 +70,9 @@ body{
     justify-content: center;
 }
 
+
                     /* page acceuil */
+
 
 /* section et bordure personaliser en dessous de la canette planty page acceuil */
 .elementor-element.elementor-element-7c68525.elementor-widget.elementor-widget-image > div{
@@ -119,7 +118,6 @@ body{
     height: 139px;
 }
 
-
 /* image en P de véro */
 #content > article > div > div > div.elementor-element.elementor-element-8f36d0a.e-con-full.e-flex.e-con.e-parent > div.elementor-element.elementor-element-10b633c.e-con-full.e-flex.e-con.e-child > div > div > img{
     width: 126.28px;
@@ -131,7 +129,6 @@ body{
     width: 126.28px;
     height: 139px;
 }
-
 
 
                     /* page nous rencontrer */
@@ -172,11 +169,8 @@ body{
 }
 
 
-
-
-
-
                     /* formulaire de contact commander */
+
 
 /* block espace de saisie en dessous des vignette */
 .img_preco p{
@@ -399,9 +393,11 @@ body{
     background-color: #C02E44;
 }
 
+
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
 
     /* supprime une marge blanche a droite */
     body{
@@ -420,11 +416,24 @@ body{
 
                     /* page acceuil */
 
-    
+
+    /* block qui regroupe les trois commentaire */
+    #content > article > div > div > div.elementor-element.elementor-element-8f36d0a.e-con-full.e-flex.e-con.e-parent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     /* centrage du paragraphe l'énergie des plantes */
     .elementor-element-a5a5b33.e-con-full.e-flex.e-con.e-parent > div > div > div{
         display: flex;
         margin-left: 10px;
+    }
+
+    /* largeur du block titre et paragraphe Fatiha */
+    #content > article > div > div > div.elementor-element.elementor-element-8f36d0a.e-con-full.e-flex.e-con.e-parent > div.elementor-element.elementor-element-2a2ad4f.e-con-full.e-flex.e-con.e-child{
+        width: 300px;
+        margin: 30px;
     }
 
     /* alignement du titre FATHIA */
@@ -432,11 +441,25 @@ body{
         text-align: left;
     }
 
+    /* largeur du block titre et paragraphe Vero */
+    #content > article > div > div > div.elementor-element.elementor-element-8f36d0a.e-con-full.e-flex.e-con.e-parent > div.elementor-element.elementor-element-3961e34.e-con-full.e-flex.e-con.e-child{
+        width: 300px;
+        margin: 30px;
+    }
+
     /* centrage du paragraphe en dessous du titre vero */
     .elementor-element.elementor-element-f198674.e-con-full.e-flex.e-con.e-child > div > div{
         width: 100%;
         height: 100%;
     }
+
+    /* largeur du block titre et paragraphe Marc */
+    #content > article > div > div > div.elementor-element.elementor-element-8f36d0a.e-con-full.e-flex.e-con.e-parent > div.elementor-element.elementor-element-792a108.e-con-full.e-flex.e-con.e-child{
+        width: 300px;
+        margin: 30px;
+    }
+
+
                     /* page nous rencontrer */
 
 
@@ -500,7 +523,9 @@ body{
         margin-top: -510px;
     }
 
+
                     /* page commander */
+
 
     /* block qui regroupe le gros formulaire commander */
     #wpcf7-f784-p316-o1 > form > div.conteneur_form{
@@ -554,11 +579,13 @@ body{
     }
 }
 
+
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
 
                     /* header */
+
 
     /* marge du logo */
     #site-header-inner{
@@ -570,6 +597,7 @@ body{
         width: 0px;
         margin-right: 50px;
     }
+
 
                     /* page acceuil */
 
@@ -597,6 +625,12 @@ body{
         margin: 80px 0 80px 0;
     }
 
+    /* block qui regroupe les 3 commentaire */
+    #content > article > div > div > div.elementor-element.elementor-element-8f36d0a.e-con-full.e-flex.e-con.e-parent{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 
     /* commentaire de fatiha */
     #content-inspection-panel > div > div > div > div{
@@ -612,6 +646,7 @@ body{
    .elementor-element.elementor-element-792a108.e-con-full.e-flex.e-con.e-child > div.elementor-element.elementor-element-b4c32f3.e-con-full.e-flex.e-con.e-child > div > div > p{
         margin-bottom: 50px;
     }
+
 
                     /* page nous rencontrer */
 
@@ -692,6 +727,7 @@ body{
     #wpcf7-f418-p390-o1 > form > p > label > span > span > textarea{
         width: 300px;
     }
+
 
                     /* page commander */
 
